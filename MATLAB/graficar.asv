@@ -1,0 +1,8 @@
+function[] = graficar(fun)
+
+aux = inline(fun);
+
+
+plot(vector, aux(linsapce(-3,1,1000)));
+
+end

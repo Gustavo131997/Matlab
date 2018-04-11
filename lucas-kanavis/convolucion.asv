@@ -1,0 +1,25 @@
+function [c]=convolucion(matriz,mascara)
+    
+    [ancho,largo] = size(matriz);
+    [anchoM,largoM] = size(mascara)
+    c = zeros(length(matriz));
+    
+    for x = 1:ancho
+        
+        for y = 1:largo
+            
+            for i = 1:anchoM
+                
+                for j = 1:largoM
+                    
+                    c(y, x) = c(y, x) + matriz(y +
+                    
+                end
+                
+            end
+            
+        end
+        
+    end
+    
+end
